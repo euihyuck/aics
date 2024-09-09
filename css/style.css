@@ -22,13 +22,13 @@ header nav .gnb li .lnb  {display: flex;flex-direction: column;gap:20px;}
 header nav .gnb li .lnb li {border: 1px solid #fff;text-align:left;}
 header nav .gnb li .lnb li a {color: #fff;}
 
-header #spotmenu {position: absolute;right:6% ;top:10px}
+header #spotmenu {position: absolute;right:6px ;top:10px}
 header #spotmenu a {font-size: 10px;}
 
 header #input_box {margin-top: 35px;position: relative;}
 
-header #input_box .icon_box {position: absolute;right:0 ;top:2%;;background: #011263;width: 30px;height: 20px;}
-.icon_box img {margin: 0 auto;text-align: center;}
+header #input_box .icon_box {position: absolute;right:0;top: 0;;background: #011263;width: 25px;height:19px;display: flex;justify-content: center;align-items: center;}
+.icon_box img {margin: 0 auto;width: 15px;text-align;}
 
 #visual{height: 660px;;background: url(../images/bbbb.png)center top no-repeat ;overflow:hidden;margin-left: 100px;}
 #visual .centerbox1300 {display: flex;height: 100%;flex-direction:column ;justify-content: center;gap:100px}
@@ -183,14 +183,14 @@ font-weight: lighter;width: 330px;left:8%;top:17%}
   #section3 .section3_btns {width: 300px;position: absolute;z-index: 100;right:-50px ;bottom:300px;display: flex;gap: 30px;}
 
   #section3 .swiper-button-next,
-  #section3 .swiper-button-prev {width: 100px;height: 100px;background: #fff;box-shadow: 10px 10px 30px rgba(0,0,0,0.1);display: flex;justify-content: center;align-items: center;}
+  #section3 .swiper-button-prev {width: 100px;height: 100px;background:transparent;box-shadow: 10px 10px 30px rgba(0,0,0,0.1);display: flex;justify-content: center;align-items: center;}
 
   #section3 .swiper-button-prev2 {position: absolute;;top:150px;}
   #section3 .swiper-button-next2 {position: absolute; top:150px;left: 96px}
 
-  .swiper-button-prev2::after{content:url(../images/arrow_prev.jpg) !important;}
+  .swiper-button-prev2::after{content:url(../images/arrow_prev.png) !important;}
 
-  .swiper-button-next2::after{content:url(../images/arrow_after.jpg) !important}
+  .swiper-button-next2::after{content:url(../images/arrow_after.png) !important}
 
   #section4 {padding:130px 0}
 
