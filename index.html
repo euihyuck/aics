@@ -3,51 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>아식스</title>
     <link rel="stylesheet" href="css/style.css">
       <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
-    <header>
+   <header  data-aos="fade-down"
+   data-aos-easing="linear"
+    data-aos-duration="700">
      <div class="centerbox1400">
             <h1>
                 <a href="#">
                     <img src="images/logo.png" alt="로고">
                 </a>
+                <a href="index.html" class="hide"> <div class="hide"><img src="images/logo_hide.png" alt=""></div></a>
             </h1>
             <nav>
                 <ul class="gnb">
-                    <li><a href="sub.html">남성</a>
-                        <ul class="lnb">
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                        </ul>
+                    <li><a href="#">남성</a>
+                        
                     </li>
                     <li><a href="#">여성</a>
-                        <ul class="lnb">
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                        </ul>
+                        
                     </li>
-                    <li><a href="#">아울렛</a>
-                        <ul class="lnb">
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                        </ul>
+                    <li><a href="#">아울렛</a>                      
                     </li>
                     <li><a href="#">스포츠</a></li>
                     <li><a href="#">컬렉션</a></li>
-                    <li><a href="#">#러닝</a></li>
-                    <li><a href="#">이벤트</a></li>
+                    <li><a href="sub2.html">#러닝</a></li>
+                    <li><a href="sub.html">이벤트</a></li>
                 </ul>
             </nav>
             <div id="spotmenu">
@@ -57,7 +46,7 @@
                 <a href="#">회원가입</a>
             </div>
             <div id="input_box">
-                <input type="text" placeholder="gg12345">
+                <input type="text" placeholder="여성 추천 아이템">
                 <div class="icon_box">  
                     <a href="#">
                         <img src="images/a0.png" alt="">
@@ -66,12 +55,16 @@
     
                 
             </div>
-     </div>
+      </div>
     </header>
 
-    <div id="visual">
+    <div id="visual" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="700">
         <div class="centerbox1300">
-            <div class="text">
+            <div class="text" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <strong>RIVRE CF</strong>
                 <span>실내스포츠 입문자, 체대 입시생의 원픽</span>
                 <a href="#">구매하기</a>
@@ -80,29 +73,31 @@
     </div>
 
     <div id="section_box">
-        <div id="section1">
+        <div id="section1" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="700">
             <div class="centerbox1300">
-                <div class="h2_box">
-                    <h2>
-                       NEW
-                    </h2>
-                    <div class="section1_btns">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        
-                    </div>
-                </div>
+              <h2>
+               NEW
+              </h2>
+              <div class="section1_btns">
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+              </div>
+                
                   <!-- Swiper -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="#">
-                        <figure>
+              <div class="swiper mySwiper">
+                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                         <figure>
                             <img src="images/v1.png" alt="">
-                        </figure>
-                        <p class="tit">맨그래픽 반팔티셔츠</p>
-                        <p class="content">남성의류<br><span>2 Colors</span></p>
-                        <p class="price">57,000원</p>
-                    </a></div>
+                         </figure>
+                         <p class="tit">맨그래픽 반팔티셔츠</p>
+                         <p class="content">남성의류<br><span>2 Colors</span></p>
+                         <p class="price">57,000원</p>
+                        </a>
+                    </div>
                     <div class="swiper-slide">
                         <a href="#">
                             <figure>
@@ -145,85 +140,91 @@
                     </div>
                    
                  </div>
-                 <a href="#" class="btn">종목별 보기</a>
+                 
                     
                    
-            </div>
+                </div>
+                <a href="#" class="btn">종목별 보기</a>
+            </div>   
         </div>
-    </div>
-        <div id="section2">
+    
+        <div id="section2" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="700">
             <div class="centerbox1300">
                 <h2>NEWS&EVENT</h2>
                 <div class="content_box">
-                    <div class="text_box">
-                        
-                        <p>혁신적인 스포츠 기술을 통해 더 나은 라이프 스타일을 창출하고, 전 세계의 건강한 라이프 스타일을 촉진할 제품과 서비스를 제공한다</p>
-                        <a href="#" class="btn">more</a>
-                    </div>
-                    <div class="review_box">
-                        <ul>
-                            <li>
-                                <a href="#"><img src="images/b1.png" alt=""></a>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="images/b2.png" alt=""></a>
-                                </a>
-                            </li>
-                            <li>
-                               <a href="#"><img src="images/b3.png" alt=""></a>
-                            </li>
-                        </ul>
-                    
-                    </div>
+                  <div class="text_box">
+                    <p>혁신적인 스포츠 기술을 통해 더 나은 라이프 스타일을 창출하고, 전 세계의 건강한 라이프 스타일을 촉진할 제품과 서비스를 제공한다</p>
+                    <a href="#" class="btn">more</a>
+                  </div>
+                  <div class="review_box">
+                     <ul>
+                        <li>
+                            <a href="#"><img src="images/b1.png" alt=""></a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/b2.png" alt=""></a>
+                            </a>
+                        </li>
+                        <li>
+                           <a href="#"><img src="images/b3.png" alt=""></a>
+                        </li>
+                      </ul>
+                   </div> 
                 </div>
             </div>
+            
         </div>
-        <div id="section3">
-          
-                <div class="centerbox1300">
-                   <div class="section3_swiper">
-                        <div class="swiper mySwiper2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="#">
-                                    <figure>
-                                        <img src="images/d1.png" alt="">
-                                     </figure>
+        <div id="section3" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="700">
+          <div class="centerbox1300">
+              <div class="section3_swiper">
+                  <div class="swiper mySwiper2">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a href="#">
+                              <figure>
+                                  <img src="images/d1.png" alt="">
+                                  </figure>
                                
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#">
-                                        <figure>
-                                            <img src="images/d2.jpg" alt="">
-                                        </figure>
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a href="#">
+                                  <figure>
+                                      <img src="images/d2.jpg" alt="">
+                                  </figure>
                                    
-                                    </a>
-                                </div>
+                              </a>
+                          </div>
                             
                             
-                            </div>
-                        </div>  
-                        <div class="section3_btns">
+                      </div>
+                  </div>  
+                  <div class="section3_btns">
                          
-                            <div class="swiper-button-prev2"></div>
-                            <div class="swiper-button-next2"></div>
+                      <div class="swiper-button-prev2"></div>
+                      <div class="swiper-button-next2"></div>
                             
-                        </div>
-                   </div>
-                    <div class="text_box">
-                        <strong>"GEL- 1130"</strong>
-                        <p>"혁신적인 스포츠 기술을 통해 더 나은 라이프 스타일을 창출하고, 전 세계의 건강한 라이프 스타일을 촉진할 제품과 서비스를 제공한다</p>
-                        <a href="#">BUY</a>
-                    </div>
+                  </div>
+              </div>
+              <div class="text_box">
+                <strong>"GEL- 1130"</strong>
+                <p>"혁신적인 스포츠 기술을 통해 더 나은 라이프 스타일을 창출하고, 전 세계의 건강한 라이프 스타일을 촉진할 제품과 서비스를 제공한다</p>
+                <a href="#">BUY</a>
+              </div>
                   
                         
                  
-                </div>
+          </div>
             
         </div>
-        <div id="section4">
+        <div id="section4" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="700">
             <div class="centerbox1300">
                 <div class="h2_box">
                     <h2>
@@ -246,7 +247,9 @@
             </div>
         </div>
     </div>
-    <footer>
+    <footer  data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="700">
         <img src="images/f.png" alt="">
     </footer>
     <div class="page_progress">
@@ -306,5 +309,26 @@
               },
             });
         </script>
+          <script>
+            // 확대/축소 방지 코드
+            document.addEventListener('wheel', function(event) {
+                if (event.ctrlKey) {
+                    event.preventDefault();
+                }
+            }, { passive: false });
+    
+            document.addEventListener('keydown', function(event) {
+                if (event.ctrlKey && (event.key === '+' || event.key === '-' || event.key === '0')) {
+                    event.preventDefault();
+                }
+            });
+    
+            // 페이지 로드 시 기본 배율로 설정
+            document.body.style.zoom = "100%"; // 일부 브라우저에서 배율을 강제 설정
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>
